@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% set active_page = 'unsplash' %}
+
+
+{% block tittle %}  Unsplush Finder {% endblock %}
+
+{% block head %}
+
+{{ super() }}
+
+{% endblock %}
+
+{% block page_content %}
+
+<h1 class="cap">Unsplush Finder</h1>
+
+<img class="responsive" src="https://pixabay.com/images/search/nature/">
+<p>Pixabay</p>
+
+<img class="responsive" src="https://www.dreamstime.com/photos-images/earth.html" >
+<p>Pixabay</p>
+
+{% endblock %}
+
+{% block scripts %}
+
+{{ super() }}
+
+{% endblock %}
